@@ -37,7 +37,7 @@ Options:
 Description:
     This script executes a specified executable file with an input file redirected
     and displays the output. If arguments are not provided, file dialogs are used
-    to select the executable and input file.
+    to select the executable and input file.        
 
 Example:
     testInput.ps1 "C:\Path\to\program.exe" "C:\Path\to\input.txt"

@@ -10,6 +10,7 @@
 >   - [Overview](#overview-1)
 >   - [Usage](#usage-1)
 > - [Notes](#notes)
+> - [Future Enhancements](#future-enhancements)
 > - [License](#license)
 
 ---
@@ -92,6 +93,9 @@ You can use the script by specifying the executable's path the input' folder's p
 *In non-GUI environment it is recommended to use the scripts with arguments.*
 - **Naming Convention:** For testCases.ps1, ensure that the input and expected output files follow the same naming convention for proper comparison.
 - **Execution Policy:** Ensure your PowerShell execution policy is set to RemoteSigned or higher to run the scripts.
+
+## Future Enhancements
+- Combine Scripts into a Unified Solution: Consider merging testInput.ps1 and testCases.ps1 into a single script with a mode selector (e.g., -SingleTest or -MultiTest) to reduce redundancy and improve usability.
 
 ## License
 
