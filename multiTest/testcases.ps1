@@ -204,5 +204,5 @@ for ($i = 0; $i -lt $inputs.Length; $i++) {
     }
 }
 
-Read-Host "Nyomj egy gombot a kilépéshez...";
+Read-Host "Press any key to escape...";
 Exit(0);
